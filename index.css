@@ -1,0 +1,85 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body{
+  margin: 0;
+  font-family: 'Asap', sans-serif;
+}
+.portada{
+  background: linear-gradient(120deg, #10054d, #b118c2);
+  height: 100vh;
+  position: relative;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+}
+.foto_principal{
+  height: 400px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.header__img{
+  width: 200px;
+}
+.header__nav ul {
+  list-style: none;
+  display: inline;
+}
+.header__nav ul li{
+  display: inline;
+  margin-right: 50px;
+}
+.header__nav ul li a{
+  color: white;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; 
+  letter-spacing: 1px;
+  transition: 450ms;
+  padding: 4px 5px;
+}
+.header__nav ul li a:hover{
+  color: #eaad00;
+  border-bottom: 1px solid #eaad00;
+}
+.presentacion{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 15% 45% 40%;
+  margin-left: 8%;
+  margin-right: 8%;
+  height: 80%;
+}
+
+
+h1{
+  font-weight: bold;
+  font-size: 55px;
+  color: #00ff00;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+  
+}
+h1 span{
+  text-transform: uppercase;
+}
+.inf_vertical{
+  text-orientation: upright;
+  transform: rotate(90deg);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* writing-mode: vertical-rl; */
+}
+p{
+  color:white;
+  text-align: left;
+}
