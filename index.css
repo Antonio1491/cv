@@ -26,6 +26,7 @@ body{
 .wave{
   position: absolute;
   bottom: 0;
+  margin-bottom: -1px;
 }
 .foto_principal{
   height: 400px;
@@ -188,16 +189,26 @@ ul.lista-portafolio li{
   padding: 10px;
   float: left;
 }
+
+.nota{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+/*====================== Responsive ======================*/
 @media only screen and (min-width: 480px){
   ul.lista-portafolio li{
     width: 50%;
   }
 }
+
 @media only screen and (min-width: 768px){
   ul.lista-portafolio li{
     width: 30%;
   }
 }
+
 div.proyecto{
   position: relative;
   overflow: hidden;
@@ -239,7 +250,8 @@ div.proyecto:hover p{
   color: #00ff00;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:580px) 
+{
   .presentacion{
     padding-top: 50px;
     display: flex;
@@ -248,6 +260,9 @@ div.proyecto:hover p{
     /* align-items: center; */
     /* grid-template-rows: auto; */
 
+  }
+  .foto_principal{
+    height: 350px;
   }
   h1{
     font-weight: bold;
@@ -264,6 +279,7 @@ div.proyecto:hover p{
     font-weight: bold;
   }
   .inf_vertical{
+    padding-top: 80px;
     text-orientation:initial;
     transform: rotate(0deg);
     color: white;
@@ -292,8 +308,6 @@ div.proyecto:hover p{
     color: #270036;
     font-size: 20px;
   }
-
-
 
   .conocimientos{
     display: flex;
